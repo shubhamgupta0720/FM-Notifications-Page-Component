@@ -1,4 +1,5 @@
 import './App.css'
+import Notification from './components/Notification'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
             </div>
             <a>Mark all as read</a>
           </div>
+          <Notification imgSource = "././assets/images/avatar-angela-gray.webp" personName="James Charles" message='Joined'/>
         </div>
       </main>
     </>

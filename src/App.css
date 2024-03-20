@@ -22,7 +22,7 @@
 main{
   width: 100vw;
   height: 100vh;
-  background-color: var(--Blue);
+  background-color: var(--Verylightgrayishblue);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,19 +31,20 @@ main{
 #notificationCard{
   width: 50%;
   height: 90%;
-  background-color: white;
+  background-color: var(--White);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   padding: 24px;
+  border-radius: 10px;
 }
 
 .title-mark{
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .title-notif-count{
@@ -68,6 +69,6 @@ main{
 
 .title-mark > a{
   color: var(--Darkgrayishblue);
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
 }
