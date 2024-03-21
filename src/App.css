@@ -82,10 +82,11 @@ main{
   justify-content: flex-start;
   align-items: center;
   background-color: var(--Verylightgrayishblue);
+  margin: 4px 0px;
 }
 
 #individualNnotif > img{
-  width: 64px;
+  width: 66px;
   padding-right: 20px;
 }
 
@@ -95,4 +96,12 @@ main{
 
 .content > span:nth-child(3){
   font-weight: 700;
+  
+}
+
+.redNewNotif{
+  width: 10px;
+  height: 10px;
+  background-color: var(--Red);
+  border-radius: 10px;
 }

@@ -13,6 +13,7 @@ function Notification({imgSource = "", personName = "", message = "", mainConten
                 </div>
                 <p>{time}</p>
             </div>
+
         </div>
     );
 }
