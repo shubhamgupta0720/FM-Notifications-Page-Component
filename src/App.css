@@ -159,4 +159,8 @@ main{
   .allNotifs{
     padding: 16px;
   }
+
+  .private-message{
+    width: 80%;
+  }
 }
