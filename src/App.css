@@ -21,7 +21,7 @@
 
 main{
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   background-color: var(--Verylightgrayishblue);
   display: flex;
   justify-content: center;
@@ -29,8 +29,8 @@ main{
 }
 
 #notificationCard{
-  width: 50%;
-  height: 90%;
+  width: 48%;
+  height: auto;
   background-color: var(--White);
   display: flex;
   flex-direction: column;
@@ -38,6 +38,7 @@ main{
   align-items: center;
   padding: 24px;
   border-radius: 10px;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
 }
 
 .title-mark{
@@ -74,15 +75,19 @@ main{
   font-weight: 600;
 }
 
-#individualNnotif{
+.allNotifs{
   width: 100%;
+  background-color: var(--Verylightgrayishblue);
+  margin: 4px 0px;
   padding: 20px;
   border-radius: 10px;
+}
+
+#individualNnotif{
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: var(--Verylightgrayishblue);
-  margin: 4px 0px;
 }
 
 #individualNnotif > img{
@@ -96,7 +101,10 @@ main{
 
 .content > span:nth-child(3){
   font-weight: 700;
-  
+}
+
+.group{
+  color: var(--Blue);
 }
 
 .redNewNotif{
@@ -104,4 +112,20 @@ main{
   height: 10px;
   background-color: var(--Red);
   border-radius: 10px;
+}
+
+.content-time{
+  width: 100%;
+}
+
+.private-message{
+  margin-top: 10px;
+  margin-left: 85px;
+  padding: 20px;
+  width: 87%;
+  border-radius: 6px;
+  border: 1px solid var(--Lightgrayishblue2);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--Darkgrayishblue);
 }
