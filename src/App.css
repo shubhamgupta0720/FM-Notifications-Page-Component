@@ -77,10 +77,14 @@ main{
 
 .allNotifs{
   width: 100%;
-  background-color: var(--Verylightgrayishblue);
+  /* background-color: var(--Verylightgrayishblue); */
   margin: 4px 0px;
   padding: 20px;
   border-radius: 10px;
+}
+
+.allNotifs:hover{
+  cursor: pointer;
 }
 
 #individualNnotif{
@@ -108,14 +112,19 @@ main{
 }
 
 .redNewNotif{
-  width: 10px;
-  height: 10px;
+  margin-left: 4px;
+  font-size: 6px;
   background-color: var(--Red);
   border-radius: 10px;
 }
 
 .content-time{
   width: 100%;
+}
+
+.content-time > p{
+  color: var(--Darkgrayishblue);
+  font-size: 14px;
 }
 
 .private-message{
@@ -128,4 +137,22 @@ main{
   font-size: 15px;
   font-weight: 500;
   color: var(--Darkgrayishblue);
+}
+
+@media (max-width: 480px){
+
+  main{
+    height: auto;
+  }
+  #notificationCard{
+    width: 100%;
+  }
+
+  .title-notif-count > h1{
+    font-size: 22px;
+  }
+
+  .allNotifs{
+    padding: 16px;
+  }
 }
