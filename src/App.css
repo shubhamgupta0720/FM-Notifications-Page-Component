@@ -75,6 +75,10 @@ main{
   font-weight: 600;
 }
 
+.title-mark > a:hover{
+  cursor: pointer;
+}
+
 .allNotifs{
   width: 100%;
   /* background-color: var(--Verylightgrayishblue); */
