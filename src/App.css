@@ -162,5 +162,6 @@ main{
 
   .private-message{
     width: 80%;
+    margin-left: 66px;
   }
 }
