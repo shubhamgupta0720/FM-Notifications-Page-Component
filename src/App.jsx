@@ -33,7 +33,7 @@ function App() {
           <div className="title-mark">
             <div className="title-notif-count">
               <h1>Notifications</h1>
-              {totalCount <= 0 && <label>{totalCount}</label>}
+              {totalCount > 0 && <label>{totalCount}</label>}
             </div>
             <a onClick={markAllAsRead}>Mark all as {allNotifRead ? 'unread' : 'read'}</a>
           </div>
